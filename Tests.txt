@@ -1,0 +1,40 @@
+Plan de Test - Products CRUD Web App
+Objectif
+Le but de ce plan de test est de vérifier le bon fonctionnement de toutes les fonctionnalités de l'application de gestion CRUD de produits.
+
+Environnement de Test
+Navigateurs Web : Google Chrome, Mozilla Firefox, Safari
+Systèmes d'exploitation : Windows 10, macOS, Linux
+Fonctionnalités à Tester
+1. Création de Produits
+Vérifier la possibilité d'ajouter un nouveau produit avec succès.
+Valider que tous les champs requis (nom, description, prix, URL de l'image) sont nécessaires pour créer un produit.
+2. Affichage des Produits
+Confirmer que la liste des produits existants est affichée correctement sur la page principale.
+Vérifier que les détails de chaque produit (nom, description, prix, image) sont correctement affichés.
+3. Modification de Produits
+Tester la modification des détails d'un produit existant et vérifier que les changements sont enregistrés avec succès.
+Assurer que toutes les informations du produit peuvent être modifiées sans erreur.
+4. Suppression de Produits
+Vérifier que la suppression d'un produit se fait sans erreur et que le produit est correctement retiré de la liste.
+Cas de Test
+Cas de Test 1 : Création de Produit
+Ouvrir l'application.
+Cliquer sur le bouton "Add Product".
+Remplir tous les champs requis pour un nouveau produit.
+Cliquer sur le bouton "Save" ou "Add".
+Vérifier que le nouveau produit est ajouté à la liste des produits existants.
+Cas de Test 2 : Affichage des Produits
+Vérifier l'affichage initial des produits sur la page principale.
+Vérifier que tous les produits sont visibles avec leurs détails.
+Cas de Test 3 : Modification de Produit
+Sélectionner un produit existant dans la liste.
+Cliquer sur le bouton "Edit" ou "Update".
+Modifier les détails du produit.
+Cliquer sur le bouton "Save" ou "Update".
+Vérifier que les modifications sont correctement enregistrées.
+Cas de Test 4 : Suppression de Produit
+Choisir un produit à supprimer.
+Cliquer sur le bouton "Delete" ou "Remove".
+Confirmer la suppression si une confirmation est demandée.
+Vérifier que le produit est retiré de la liste des produits.
